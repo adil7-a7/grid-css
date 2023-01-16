@@ -74,13 +74,14 @@ body {
   margin: 0px 5%;
   display:grid;
   grid-template-rows: 300px 300px 300px;
-  grid-template-columns: repeat(1fr,3);
-  border: 4px solid black;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:  
-  /* 1st row*/'bookcases bedroom patio' 
-  /* 2nd row*/'couches couches'
-  /* 3rd row*/'desks desks desks' ;
- 
+  "bookcases bedroom patio" /* 1st row*/ 
+  "couches couches" /* 2nd row*/ 
+  "desks desks desks"; /* 3rd row*/
+  
+   /*added border to see the grid layout*/
+  border: 4px solid black;
 }
 
 #bookcases
@@ -93,25 +94,25 @@ body {
 #bedroom
 {
   grid-area: bedroom;
-  background-image: url(../images/beds@2x.png);
+  background-image: url("../images/beds@2x.png");
 }
 
 #couches
 {
   grid-area: couches;
-  background-image: url(../images/couch@2x.png);
+  background-image: url("../images/couch@2x.png");
 }
 
 #patio
 {
   grid-area: patio;
-  background-image: url(../images/patio@2x.png);
+  background-image: url("../images/patio@2x.png");
 }
 
 #desks
 {
   grid-area: desks;
-  background-image: url(../images/desks.png);
+  background-image: url("../images/desks.png");
 }
 
 .categoryGridArea
