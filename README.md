@@ -1,5 +1,7 @@
 # CSS Grid and Breakpoints
 
+The grid I am having difficulties on looks like this
+
 CSS Grid can be used to build simple and skeletal layouts. It can also be used to create polished, professional-level layouts.
 
 In this activity, you will use CSS Grid to re-create the design of an online furniture store.
@@ -10,7 +12,7 @@ In this activity, you will use CSS Grid to re-create the design of an online fur
 
 In this section, we will finish building the rest of the page!
 
-  ![Part 2 Solution](images/part-2-solution.png)
+  ![Part 2 Solution](./expected%20output/part-2-solution.png)
 
 * Before creating our second grid, add a `div` with the class `subHeading`.
 
@@ -22,13 +24,13 @@ Create an `h3` tag and add the text “Shop by Category” within this `div`.
 
 * Create the following HTML structure inside your newly created `section` tag. This is all the HTML structure you will need for your second grid.
 
-  ![Category HTML](images/category-HTML.png)
+  ![Category HTML](./exercise_instruction_images/category-HTML.png)
 
 * Next, open `style.css`.  
 
 * Create a selector that targets the `subHeading` class. Add the following:
 
-  ![Sub Heading Properties](images/subHeading-properties.png)
+  ![Sub Heading Properties](./exercise_instruction_images/subHeading-properties.png)
 
 * Create a selector that targets your second grid using its ID.
 
@@ -44,7 +46,7 @@ Create an `h3` tag and add the text “Shop by Category” within this `div`.
 
   * The area should look like the diagram below:
 
-    ![Category Grid Layout](images/category-grid-layout.png)
+    ![Category Grid Layout](./exercise_instruction_images/category-grid-layout.png)
 
 * Next, create `five selectors` that target each grid area you created in `index.html`. Remember to target the ID for each area.
 
