@@ -1,6 +1,5 @@
 # CSS Grid and Breakpoints
 
-The grid I am having difficulties on looks like this
 
 CSS Grid can be used to build simple and skeletal layouts. It can also be used to create polished, professional-level layouts.
 
